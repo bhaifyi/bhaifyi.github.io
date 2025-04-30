@@ -1,101 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bhai.fyi – Your Go-To Resource</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      margin: 0;
-      padding: 0;
-      background-color: #f4f4f4;
-      color: #333;
-    }
-    .hero {
-      background: #007BFF;
-      color: #fff;
-      padding: 60px 20px;
-      text-align: center;
-    }
-    .hero h1 {
-      font-size: 2.5rem;
-      margin-bottom: 10px;
-    }
-    .hero p {
-      font-size: 1.2rem;
-    }
-    .cta-button {
-      display: inline-block;
-      margin-top: 20px;
-      padding: 10px 20px;
-      background: #fff;
-      color: #007BFF;
-      text-decoration: none;
-      border-radius: 5px;
-    }
-    section {
-      padding: 40px 20px;
-      max-width: 800px;
-      margin: 0 auto;
-    }
-    h2 {
-      color: #007BFF;
-      margin-bottom: 20px;
-    }
-    ul {
-      list-style-type: none;
-      padding: 0;
-    }
-    ul li {
-      background: #fff;
-      margin: 10px 0;
-      padding: 10px;
-      border-left: 5px solid #007BFF;
-    }
-    footer {
-      text-align: center;
-      padding: 20px;
-      background: #333;
-      color: #fff;
-      margin-top: 40px;
-    }
-    footer a {
-      color: #007BFF;
-      text-decoration: none;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicholas Bhai, MBA - Innovation Leader in AI/ML & Robotics</title>
+    <style>
+        :root {
+            --primary-color: #007BFF;
+            --secondary-color: #333;
+        }
+        body {
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            color: var(--secondary-color);
+        }
+        .hero {
+            background: linear-gradient(45deg, #0d47a1, #1976d2);
+            color: white;
+            padding: 4rem 1rem;
+            text-align: center;
+        }
+        .section {
+            padding: 3rem 1rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .section-alt {
+            background: #f8f9fa;
+        }
+        .project-grid {
+            display: grid;
+            gap: 2rem;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        }
+        .project-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 { font-size: 2.5rem; margin: 0; }
+        h2 { color: var(--primary-color); margin-top: 0; }
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            margin: 2rem 0;
+        }
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .management-pillars {
+            columns: 2;
+            gap: 2rem;
+        }
+        @media (max-width: 768px) {
+            .management-pillars { columns: 1; }
+        }
+    </style>
 </head>
 <body>
-  <section class="hero">
-    <h1>Welcome to Bhai.fyi</h1>
-    <p>Your go-to resource for [insert topic/service here].</p>
-    <a href="#about" class="cta-button">Learn More</a>
-  </section>
+    <header class="hero">
+        <h1>Nicholas (Nick) Bhai, MBA</h1>
+        <p>Visionary Innovation Leader in AI/ML & Robotics</p>
+        <nav class="nav-links">
+            <a href="#portfolio">Product Portfolio</a>
+            <a href="#management">Management Style</a>
+            <a href="#projects">Key Projects</a>
+        </nav>
+    </header>
 
-  <section id="about">
-    <h2>About Bhai.fyi</h2>
-    <p>At Bhai.fyi, we’re dedicated to [insert mission or purpose]. Whether you’re looking for [insert key benefits], we’ve got you covered.</p>
-  </section>
+    <section id="portfolio" class="section">
+        <h2>Strategic Innovation Portfolio</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Westinghouse Robotics</h3>
+                <p>R&D and product development driving revenue growth through:</p>
+                <ul>
+                    <li>Speed-to-market optimization</li>
+                    <li>Cross-vertical business expansion</li>
+                    <li>Radiation-hardened systems</li>
+                </ul>
+            </div>
+            <div class="project-card">
+                <h3>AI/ML Industrial Optimization</h3>
+                <p>Transformative solutions for:</p>
+                <ul>
+                    <li>Process efficiency improvements</li>
+                    <li>Chemical formula optimization</li>
+                    <li>Predictive maintenance systems</li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
-  <section id="services">
-    <h2>What We Offer</h2>
-    <ul>
-      <li>✅ [Feature/Service 1]</li>
-      <li>✅ [Feature/Service 2]</li>
-      <li>✅ [Feature/Service 3]</li>
-    </ul>
-  </section>
+    <section id="management" class="section section-alt">
+        <h2>Leadership Philosophy</h2>
+        <div class="management-pillars">
+            <div class="project-card">
+                <h3>Innovation Catalyst</h3>
+                <p>Cultivating environments for groundbreaking ideas through experimental frameworks and rapid prototyping methodologies</p>
+            </div>
+            <div class="project-card">
+                <h3>Strategic Execution</h3>
+                <p>Aligning technical initiatives with corporate vision through:</p>
+                <ul>
+                    <li>Agile roadmap development</li>
+                    <li>Cross-functional team orchestration</li>
+                    <li>Stakeholder value mapping</li>
+                </ul>
+            </div>
+            <div class="project-card">
+                <h3>Radiation-Hardened Robotics</h3>
+                <p>Pioneering systems for extreme environments:</p>
+                <ul>
+                    <li>Submersible inspection robots</li>
+                    <li>Autonomous decontamination systems</li>
+                    <li>High-radiation tolerant platforms</li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
-  <section id="cta">
-    <h2>Ready to Get Started?</h2>
-    <p>Join us today and experience the difference.</p>
-    <a href="#contact" class="cta-button">Contact Us</a>
-  </section>
+    <section id="projects" class="section">
+        <h2>Technical Innovations</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Autonomous Radiation Mapping</h3>
+                <p>LIDAR-enabled robot creating 3D radiation models with:</p>
+                <ul>
+                    <li>Anomaly detection algorithms</li>
+                    <li>Real-time hazard alerting</li>
+                    <li>Source identification systems</li>
+                </ul>
+            </div>
+            <div class="project-card">
+                <h3>Nuclear Decontamination System</h3>
+                <p>AI-driven robotic arm featuring:</p>
+                <ul>
+                    <li>Digital twin integration</li>
+                    <li>Path optimization algorithms</li>
+                    <li>Contamination removal analytics</li>
+                </ul>
+            </div>
+            <div class="project-card">
+                <h3>Virtual Reality Training</h3>
+                <p>Nuclear facility simulations with:</p>
+                <ul>
+                    <li>Confined space protocols</li>
+                    <li>Safety procedure replication</li>
+                    <li>Equipment handling scenarios</li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
-  <footer>
-    <p>© 2025 Bhai.fyi | <a href="#privacy">Privacy Policy</a></p>
-  </footer>
+    <footer class="section section-alt">
+        <p>© 2025 Nicholas Bhai | 
+            <a href="https://linkedin.com/in/nicholasbhai" style="color: var(--primary-color);">LinkedIn</a> | 
+            <a href="https://forsightassist.com" style="color: var(--primary-color);">ForSight Assistive Devices</a>
+        </p>
+    </footer>
 </body>
 </html>
